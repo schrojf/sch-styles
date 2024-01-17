@@ -1,20 +1,38 @@
 {
-    "name": "sch-styles",
-    "private": true,
-    "version": "0.0.0",
-    "description": "Personal library of Tailwind components including HTML Layouts and handcrafted Website Design Templates.",
-    "type": "module",
-    "scripts": {
-        "dev": "vite",
-        "build": "tsc && vite build",
-        "watch": "vite build --watch",
-        "preview": "vite preview"
-    },
-    "keywords": ["vite", "tailwind", "storybook", "html", "components"],
-    "author": "Viliam Schrojf <viliam@schrojf.sk> (http://www.schrojf.sk/)",
-    "license": "MIT",
-    "devDependencies": {
-        "typescript": "^5.2.2",
-        "vite": "^5.0.8"
-    }
+  "name": "sch-styles",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Personal library of Tailwind components including HTML Layouts and handcrafted Website Design Templates.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "watch": "vite build --watch",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [
+    "vite",
+    "tailwind",
+    "storybook",
+    "html",
+    "components"
+  ],
+  "author": "Viliam Schrojf <viliam@schrojf.sk> (http://www.schrojf.sk/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.9",
+    "@storybook/addon-interactions": "^7.6.9",
+    "@storybook/addon-links": "^7.6.9",
+    "@storybook/blocks": "^7.6.9",
+    "@storybook/html": "^7.6.9",
+    "@storybook/html-vite": "^7.6.9",
+    "@storybook/test": "^7.6.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.9",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
 }
