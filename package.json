@@ -5,6 +5,8 @@
   "description": "Personal library of Tailwind components including HTML Layouts and handcrafted Website Design Templates.",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static",
     "dev": "vite",
     "build": "tsc && vite build",
     "watch": "vite build --watch",
@@ -19,6 +21,7 @@
     "html",
     "components"
   ],
+  "homepage": "https://schrojf.github.io/sch-styles",
   "author": "Viliam Schrojf <viliam@schrojf.sk> (http://www.schrojf.sk/)",
   "license": "MIT",
   "devDependencies": {
@@ -29,6 +32,7 @@
     "@storybook/html": "^7.6.9",
     "@storybook/html-vite": "^7.6.9",
     "@storybook/test": "^7.6.9",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "^7.6.9",
