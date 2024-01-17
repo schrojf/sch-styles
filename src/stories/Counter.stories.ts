@@ -39,7 +39,7 @@ export const Button: Story = {
     },
     parameters: {
         layout: 'centered',
-        backgrounds: { default: 'dark' },
+        backgrounds: {default: 'dark'},
     },
 };
 
