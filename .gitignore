@@ -1,3 +1,7 @@
+# Storybook static build
+storybook-static/*
+#!storybook-static/.gitkeep
+
 # Logs
 logs
 *.log

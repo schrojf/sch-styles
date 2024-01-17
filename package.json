@@ -5,8 +5,8 @@
   "description": "Personal library of Tailwind components including HTML Layouts and handcrafted Website Design Templates.",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build-storybook",
-    "deploy-storybook": "gh-pages -d storybook-static",
+    "predeploy-storybook": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static -t true",
     "dev": "vite",
     "build": "tsc && vite build",
     "watch": "vite build --watch",
