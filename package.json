@@ -6,10 +6,6 @@
   "scripts": {
     "predeploy-storybook": "npm run build-storybook",
     "deploy-storybook": "gh-pages -d storybook-static -t true",
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "watch": "vite build --watch",
-    "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
