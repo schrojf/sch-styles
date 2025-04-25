@@ -20,7 +20,6 @@
   "author": "Viliam Schrojf <viliam@schrojf.sk> (http://www.schrojf.sk/)",
   "license": "MIT",
   "devDependencies": {
-    "@chromatic-com/storybook": "^3.2.5",
     "@storybook/addon-essentials": "^8.6.4",
     "@storybook/addon-interactions": "^8.6.4",
     "@storybook/addon-links": "^8.6.4",
