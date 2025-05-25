@@ -1,0 +1,3 @@
+const d={title:"Playground/Basics",parameters:{layout:"fullscreen"}},e=()=>"",r=()=>`
+    <h1 class="text-4xl font-bold text-center text-blue-500">Hello world!</h1>
+`;var t,o,s;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:"() => ``",...(s=(o=e.parameters)==null?void 0:o.docs)==null?void 0:s.source}}};var a,l,c;r.parameters={...r.parameters,docs:{...(a=r.parameters)==null?void 0:a.docs,source:{originalSource:'() => `\n    <h1 class="text-4xl font-bold text-center text-blue-500">Hello world!</h1>\n`',...(c=(l=r.parameters)==null?void 0:l.docs)==null?void 0:c.source}}};const n=["Empty","HelloWorld"];export{e as Empty,r as HelloWorld,n as __namedExportsOrder,d as default};
