@@ -1,4 +1,4 @@
-import type {Preview} from "@storybook/html";
+import type {Preview} from "@storybook/html-vite";
 import {withThemeByClassName} from '@storybook/addon-themes';
 // import { withThemeByDataAttribute } from '@storybook/addon-themes';
 import '../src/main.css';
@@ -11,6 +11,10 @@ const preview: Preview = {
                 date: /Date$/i,
             },
         },
+
+        docs: {
+            codePanel: true
+        }
     },
 };
 

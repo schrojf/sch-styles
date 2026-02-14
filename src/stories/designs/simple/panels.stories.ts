@@ -1,4 +1,4 @@
-import type { Meta } from '@storybook/html';
+import type { Meta } from '@storybook/html-vite';
 
 const meta = {
     title: 'Designs/Simple Styles/Panels',

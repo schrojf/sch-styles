@@ -1,4 +1,4 @@
-import type { Meta } from '@storybook/html';
+import type { Meta } from '@storybook/html-vite';
 import SimplePage from './html/simple-page.html?raw';
 
 const meta = {
