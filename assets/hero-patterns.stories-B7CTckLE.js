@@ -5,7 +5,7 @@ const l={title:"Playground/Hero Patterns",parameters:{layout:"fullscreen"}},r={r
                 style="width: ${e.Width}; height: ${e.Height}; background-color: ${e.BackgroundColor};"
             >
                 <div
-                    class="absolute inset-0 bg-[url(glamorous.svg)] bg-repeat"
+                    class="absolute inset-0 bg-[url(../glamorous.svg)] bg-repeat"
                     style="opacity: ${e.PatternOpacity};"
                 ></div>
             </div>
@@ -17,7 +17,7 @@ const l={title:"Playground/Hero Patterns",parameters:{layout:"fullscreen"}},r={r
                 style="width: ${e.Width}; height: ${e.Height}; background-color: ${e.BackgroundColor};"
             >
                 <div
-                    class="absolute inset-0 bg-[url(glamorous.svg)] bg-repeat"
+                    class="absolute inset-0 bg-[url(../glamorous.svg)] bg-repeat"
                     style="opacity: ${e.PatternOpacity};"
                 ></div>
                 <div class="relative flex items-center justify-center h-full">
@@ -35,7 +35,7 @@ const l={title:"Playground/Hero Patterns",parameters:{layout:"fullscreen"}},r={r
                     style="background-color: ${t.bg};"
                 >
                     <div
-                        class="absolute inset-0 bg-[url(glamorous.svg)] bg-repeat"
+                        class="absolute inset-0 bg-[url(../glamorous.svg)] bg-repeat"
                         style="opacity: ${t.opacity};"
                     ></div>
                     <div class="relative flex items-center justify-center h-full">
@@ -53,7 +53,7 @@ const l={title:"Playground/Hero Patterns",parameters:{layout:"fullscreen"}},r={r
                 style="width: \${args.Width}; height: \${args.Height}; background-color: \${args.BackgroundColor};"
             >
                 <div
-                    class="absolute inset-0 bg-[url(glamorous.svg)] bg-repeat"
+                    class="absolute inset-0 bg-[url(../glamorous.svg)] bg-repeat"
                     style="opacity: \${args.PatternOpacity};"
                 ></div>
             </div>
@@ -92,7 +92,7 @@ const l={title:"Playground/Hero Patterns",parameters:{layout:"fullscreen"}},r={r
                 style="width: \${args.Width}; height: \${args.Height}; background-color: \${args.BackgroundColor};"
             >
                 <div
-                    class="absolute inset-0 bg-[url(glamorous.svg)] bg-repeat"
+                    class="absolute inset-0 bg-[url(../glamorous.svg)] bg-repeat"
                     style="opacity: \${args.PatternOpacity};"
                 ></div>
                 <div class="relative flex items-center justify-center h-full">
@@ -175,7 +175,7 @@ const l={title:"Playground/Hero Patterns",parameters:{layout:"fullscreen"}},r={r
                     style="background-color: \${p.bg};"
                 >
                     <div
-                        class="absolute inset-0 bg-[url(glamorous.svg)] bg-repeat"
+                        class="absolute inset-0 bg-[url(../glamorous.svg)] bg-repeat"
                         style="opacity: \${p.opacity};"
                     ></div>
                     <div class="relative flex items-center justify-center h-full">

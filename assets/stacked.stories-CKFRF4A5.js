@@ -1,7 +1,7 @@
 const g={title:"Layouts/Stacked",parameters:{layout:"fullscreen"}},l=()=>{function n(){return`
             <div class="hidden sm:block relative sm:ml-6">
                 <button id="toggleDropdownBtn" class="relative z-10 block h-8 w-8 rounded-full overflow-hidden border-2 border-gray-600 focus:outline-none focus:border-white">
-                    <img class="h-full w-full object-cover" src="/kaitlin-dowis-3YnT86K0CdE-unsplash.jpg" alt="Maccaw">
+                    <img class="h-full w-full object-cover" src="kaitlin-dowis-3YnT86K0CdE-unsplash.jpg" alt="Maccaw">
                 </button>
                 <button id="closeDropdownOverlay" data-toggle-group="dropdown" data-toggle-class='{"opened": "block", "closed": "hidden"}' tabindex="-1" class="fixed inset-0 h-full w-full bg-black/50 cursor-default"></button>
                 <div data-toggle-group="dropdown" data-toggle-class='{"opened": "block", "closed": "hidden"}' class="absolute right-0 mt-2 py-2 w-48 bg-white rounded-lg shadow-lg">
@@ -16,7 +16,7 @@ const g={title:"Layouts/Stacked",parameters:{layout:"fullscreen"}},l=()=>{functi
                 <header class="bg-gray-800 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
                     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
                         <div>
-                            <img class="h-8" src="/logoipsum-289.svg" alt="Logo impsum">
+                            <img class="h-8" src="logoipsum-289.svg" alt="Logo impsum">
                         </div>
                         <div class="sm:hidden">
                             <button id="toggleMenuBtn" type="button" class="block text-gray-400 hover:text-white focus:text-white focus:outline-none">
@@ -39,7 +39,7 @@ const g={title:"Layouts/Stacked",parameters:{layout:"fullscreen"}},l=()=>{functi
                         </div>
                         <div class="px-4 py-5 border-t border-gray-700 sm:hidden">
                             <div class="flex items-center">
-                                <img class="h-8 w-8 border-2 border-gray-600 rounded-full object-cover" src="/kaitlin-dowis-3YnT86K0CdE-unsplash.jpg" alt="Maccaw">
+                                <img class="h-8 w-8 border-2 border-gray-600 rounded-full object-cover" src="kaitlin-dowis-3YnT86K0CdE-unsplash.jpg" alt="Maccaw">
                                 <span class="ml-3 font-semibold text-white">Maccaw</span>
                             </div>
                             <div class="mt-4">
@@ -73,7 +73,7 @@ const g={title:"Layouts/Stacked",parameters:{layout:"fullscreen"}},l=()=>{functi
     return \`
             <div class="hidden sm:block relative sm:ml-6">
                 <button id="toggleDropdownBtn" class="relative z-10 block h-8 w-8 rounded-full overflow-hidden border-2 border-gray-600 focus:outline-none focus:border-white">
-                    <img class="h-full w-full object-cover" src="/kaitlin-dowis-3YnT86K0CdE-unsplash.jpg" alt="Maccaw">
+                    <img class="h-full w-full object-cover" src="kaitlin-dowis-3YnT86K0CdE-unsplash.jpg" alt="Maccaw">
                 </button>
                 <button id="closeDropdownOverlay" data-toggle-group="dropdown" data-toggle-class='{"opened": "block", "closed": "hidden"}' tabindex="-1" class="fixed inset-0 h-full w-full bg-black/50 cursor-default"></button>
                 <div data-toggle-group="dropdown" data-toggle-class='{"opened": "block", "closed": "hidden"}' class="absolute right-0 mt-2 py-2 w-48 bg-white rounded-lg shadow-lg">
@@ -91,7 +91,7 @@ const g={title:"Layouts/Stacked",parameters:{layout:"fullscreen"}},l=()=>{functi
                 <header class="bg-gray-800 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
                     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
                         <div>
-                            <img class="h-8" src="/logoipsum-289.svg" alt="Logo impsum">
+                            <img class="h-8" src="logoipsum-289.svg" alt="Logo impsum">
                         </div>
                         <div class="sm:hidden">
                             <button id="toggleMenuBtn" type="button" class="block text-gray-400 hover:text-white focus:text-white focus:outline-none">
@@ -114,7 +114,7 @@ const g={title:"Layouts/Stacked",parameters:{layout:"fullscreen"}},l=()=>{functi
                         </div>
                         <div class="px-4 py-5 border-t border-gray-700 sm:hidden">
                             <div class="flex items-center">
-                                <img class="h-8 w-8 border-2 border-gray-600 rounded-full object-cover" src="/kaitlin-dowis-3YnT86K0CdE-unsplash.jpg" alt="Maccaw">
+                                <img class="h-8 w-8 border-2 border-gray-600 rounded-full object-cover" src="kaitlin-dowis-3YnT86K0CdE-unsplash.jpg" alt="Maccaw">
                                 <span class="ml-3 font-semibold text-white">Maccaw</span>
                             </div>
                             <div class="mt-4">

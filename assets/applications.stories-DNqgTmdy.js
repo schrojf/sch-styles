@@ -30,7 +30,7 @@ const o=`<div class="min-h-screen bg-slate-100 text-slate-500 antialiased">
         >
             <div class="flex h-full min-h-full flex-col">
                 <div class="px-4 pt-4">
-                    <img src="/logoipsum-254.svg" alt="Logo Ipsum" />
+                    <img src="logoipsum-254.svg" alt="Logo Ipsum" />
                 </div>
                 <div class="mt-16 flex-grow overflow-y-auto px-4">
                     <ul class="space-y-1">
@@ -109,7 +109,7 @@ const o=`<div class="min-h-screen bg-slate-100 text-slate-500 antialiased">
                     <div class="flex-shrink-0">
                         <img
                             class="h-10 w-10 rounded-full border border-gray-800 bg-white p-0.5"
-                            src="/kaitlin-dowis-3YnT86K0CdE-unsplash.jpg"
+                            src="kaitlin-dowis-3YnT86K0CdE-unsplash.jpg"
                             alt=""
                         />
                     </div>
