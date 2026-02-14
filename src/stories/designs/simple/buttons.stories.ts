@@ -226,13 +226,13 @@ export const ButtonsWithRippleEffects = () => `
 export const DivElementButton = () => `
     <div class="inline-block max-w-xs">
         <div role="button" class="inline-block align-middle text-center whitespace-nowrap overflow-hidden select-none bg-zinc-950 text-white hover:bg-zinc-300 hover:text-zinc-950 active:opacity-50">
-            <img src="/markus-spiske-8aF7KHNrHpU-unsplash.jpg" alt="Lotus Esprit Turbo S3 2.2 – Year: 1985, 211 PS">
+            <img src="markus-spiske-8aF7KHNrHpU-unsplash.jpg" alt="Lotus Esprit Turbo S3 2.2 – Year: 1985, 211 PS">
             <p class="px-4 py-2">Lotus Esprit Turbo S3 2.2</p>
         </div>
     </div>
     <div class="inline-block max-w-xs">
         <button type="button" class="inline-block align-middle text-center whitespace-nowrap overflow-hidden select-none bg-zinc-950 text-white hover:bg-zinc-300 hover:text-zinc-950 active:opacity-50">
-            <img src="/markus-spiske-8aF7KHNrHpU-unsplash.jpg" alt="Lotus Esprit Turbo S3 2.2 – Year: 1985, 211 PS">
+            <img src="markus-spiske-8aF7KHNrHpU-unsplash.jpg" alt="Lotus Esprit Turbo S3 2.2 – Year: 1985, 211 PS">
             <p class="px-4 py-2">Lotus Esprit Turbo S3 2.2</p>
         </button>
     </div>

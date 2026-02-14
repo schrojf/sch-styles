@@ -48,7 +48,7 @@ export const Intro = () => `
         <button class="fixed z-20 inset-0 bg-zinc-900/50 sm:hidden" tabindex="-1"></button>
         <nav class="mt-14 z-20 sm:mt-0 fixed inset-y-0 w-full max-w-64 sm:max-w-72 bg-zinc-100 lg:border-r lg:border-zinc-300 overflow-y-auto">
             <div class="flex py-16 px-8">
-                <img class="w-full" src="/logoipsum-289.svg" alt="Logo ipsum">
+                <img class="w-full" src="logoipsum-289.svg" alt="Logo ipsum">
             </div>
             <ul class="mb-16 border-b border-zinc-300">
                 <li class="border-t border-zinc-300">

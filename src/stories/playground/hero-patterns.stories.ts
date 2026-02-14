@@ -24,7 +24,7 @@ export const Glamorous: StoryObj<HeroPatternsArgs> = {
                 style="width: ${args.Width}; height: ${args.Height}; background-color: ${args.BackgroundColor};"
             >
                 <div
-                    class="absolute inset-0 bg-[url(glamorous.svg)] bg-repeat"
+                    class="absolute inset-0 bg-[url(../glamorous.svg)] bg-repeat"
                     style="opacity: ${args.PatternOpacity};"
                 ></div>
             </div>
@@ -52,7 +52,7 @@ export const GlamorousWithContent: StoryObj<HeroPatternsArgs> = {
                 style="width: ${args.Width}; height: ${args.Height}; background-color: ${args.BackgroundColor};"
             >
                 <div
-                    class="absolute inset-0 bg-[url(glamorous.svg)] bg-repeat"
+                    class="absolute inset-0 bg-[url(../glamorous.svg)] bg-repeat"
                     style="opacity: ${args.PatternOpacity};"
                 ></div>
                 <div class="relative flex items-center justify-center h-full">
@@ -96,7 +96,7 @@ export const GlamorousPresets: StoryObj<{ Preset: string }> = {
                     style="background-color: ${p.bg};"
                 >
                     <div
-                        class="absolute inset-0 bg-[url(glamorous.svg)] bg-repeat"
+                        class="absolute inset-0 bg-[url(../glamorous.svg)] bg-repeat"
                         style="opacity: ${p.opacity};"
                     ></div>
                     <div class="relative flex items-center justify-center h-full">
