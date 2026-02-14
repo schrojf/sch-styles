@@ -1,0 +1,3 @@
+const t={title:"Playground/Basics",parameters:{layout:"fullscreen"}},e=()=>"",r=()=>`
+    <h1 class="text-4xl font-bold text-center text-blue-500">Hello world!</h1>
+`;e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:"() => ``",...e.parameters?.docs?.source}}};r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:'() => `\n    <h1 class="text-4xl font-bold text-center text-blue-500">Hello world!</h1>\n`',...r.parameters?.docs?.source}}};const o=["Empty","HelloWorld"];export{e as Empty,r as HelloWorld,o as __namedExportsOrder,t as default};
