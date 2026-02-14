@@ -5,7 +5,7 @@
   "description": "Personal library of Tailwind components including HTML Layouts and handcrafted Website Design Templates.",
   "scripts": {
     "predeploy-storybook": "npm run build-storybook",
-    "deploy-storybook": "gh-pages -d storybook-static -t true",
+    "deploy-storybook": "gh-pages -d storybook-static -t",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
